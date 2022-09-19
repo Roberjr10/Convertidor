@@ -1,0 +1,158 @@
+
+.App {
+  text-align: center;
+
+}
+
+.header img {
+  margin-top: 1%;
+}
+.header strong {
+  margin-left: 2%;
+  color: #2E0039;
+  font-size: 110%;
+}
+.convertidor {
+  background-color: #2E0039;
+  color: white;
+  width: 714px;
+  height: auto;
+  padding-bottom: 5%;
+margin: 0 auto;
+border-radius: 21px;
+}
+.convertidor h3 {
+  padding: 5% 1% 0% 6%;
+  text-align: initial;
+}
+.corazon {
+ float: left;
+  padding-left: 6% ;
+  padding-top: 1%;
+}
+.resultado {
+  float: right;
+  font-size: 25px;
+  font-weight: bold;
+  padding-right: 15%;
+  padding-top: 2%;
+}
+.component_input {
+ padding-top: 2%;
+ text-align: initial;
+ padding: 5% 1% 0% 6%;
+}
+
+.component_input select {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  width: 218px;
+}
+.component_input select option {
+  background-color: #2E0039;
+
+}
+.component_input input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 218px;
+  color: white;
+  text-align: end;
+}
+
+.btn-convertidor {
+  background-color: #2E0039;
+  border: none;
+  padding: 0 10% 0 1%;
+}
+.containerGuardados {
+  column-count: 2;
+    justify-content: center;
+    margin: 0 auto;
+    width: 712px;
+  
+}
+.cajaGuardados {
+  background-color: #ccc;
+  /* width: 250px; */
+  border-radius: 10px;
+  height: 40px;
+  text-align: left;
+}
+.cajaGuardados p {
+  margin-top: 3px;
+  margin-top: 3px;
+    padding: 9px 17px 13px 40px;
+}
+.imagenX {
+  float: right;
+  margin: 5px 24px 10px 0px;
+
+}
+.containerSaved{
+  width: 712px;
+  margin: 0 auto;
+  text-align: left;
+  color: rgb(134, 131, 131);
+}
+.btn-corazon{
+  background-color: #2E0039;
+  border: none;
+  float: left;
+  padding: 10px 10px 0px 50px;
+
+}
+.containerFooter {
+  background-color: #2E0039;
+  color: white;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.spanFooter{
+  padding:0px 20px 0px 20px ;
+}
+footer {
+  padding-top: 1%
+}
+
+@media (max-width: 800px){
+  .convertidor {
+  width: 600px;
+}
+.containerGuardados {
+  width: 600px;
+}
+.containerSaved {
+  width: 600px;
+}
+@media(max-width: 620px) {
+  .convertidor {
+    width: 350px;
+    height: 165px;
+  }
+  .btn-corazon {
+    padding: 0;
+    padding-left: 5%;
+  }
+  .containerGuardados {
+    width: 312px;
+    column-count: 1;
+   
+  }
+  .containerSaved {
+   
+    width: 312px;
+   
+  }
+  .cajaGuardados {
+    margin-top: 5%;
+  }
+}
+}
